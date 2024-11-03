@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="samp.css">
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2016/04/15/18/05/computer-1331579_640.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="bd" style="background-image: url('https://raw.githubusercontent.com/designeer1/MYPROFILE/refs/heads/main/BG1.jpg');">
+    <div class="wrapper">
+        <form id="loginForm" class="ab">
+            <h1>Login</h1>
+            
+            <div class="inputbox">
+                <input type="text" id="username" placeholder="username" required>
+                <i class='bx bxs-user-circle'></i>
+            </div>
+            <div class="inputbox1">
+                <input type="password" id="password" placeholder="password" required>
+                <i class='bx bxs-lock'></i>
+            </div>
+
+            <div class="remember">
+                <label><input type="checkbox"> Remember Me?</label>
+                <a href="#">Forgot password?</a>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <div class="registerlink">
+                <p>Don't you have an account? <a href="#">Register</a></p>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Simulate login (replace with actual authentication logic)
+            if (username === 'KALYAN' && password === 'WEB123@@@') {
+                // Redirect to the target webpage
+                window.location.href = 'https://designeer1.github.io/mysite/#'; // Replace with your target URL
+            } else {
+                alert('Invalid username or password');
+            }
+        });
+    </script>
+</body>
+</html>

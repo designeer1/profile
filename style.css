@@ -1,0 +1,155 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border-radius: 18px;
+    padding: 30px 40px;
+    
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+   
+    
+   
+    
+}
+.wrapper h1{
+    font-size: 52px;
+    text-align: center;
+    margin-left: 20px;
+    padding-left: 20;
+    width: 520px;
+    min-height: 5;
+}
+.wrapper h1:hover{
+    text-decoration: underline;
+}
+.wrapper .inputbox{
+    margin: 30px 0;
+    width: 100px;
+    height: 50px;
+    position: relative;
+    
+}
+.inputbox input{
+    width: 500px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 45px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px ;
+}
+.wrapper .inputbox1{
+    margin: 30px 0;
+    width: 100px;
+    height: 50px;
+    
+}
+.inputbox1 input{
+    width: 500px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 45px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px ;
+}
+.inputbox input::placeholder{
+    color: white;
+}
+.inputbox1 input::placeholder{
+    color: white;
+}
+.inputbox i{
+ position: absolute;
+ right: -390px;
+ top: 20%;
+ transform: translate(-50%);
+ font-size: 20px;
+
+    
+    
+}
+.inputbox1 i{
+    position: absolute;
+    right: 570px;
+    bottom: 47%;
+    transform: translate(-50%);
+    font-size: 20px;
+   
+       
+       
+   }
+   .wrapper .remember{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -10px 0 15px;
+    color: aliceblue;
+   }
+   .remember label input{
+   accent-color: #ffff;
+   margin: 3px;
+   }
+   .remember a{
+    text-decoration: none;
+    color: aliceblue;
+   }
+   .remember a:hover{
+    text-decoration: underline; 
+   }
+   .wrapper .btn{
+    width: 600px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: black;
+    color: black;
+   }
+   .btn:hover{
+    background-color:antiquewhite;
+    border-bottom: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 800px;
+   }
+   .wrapper .registerlink{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    color: aliceblue;
+    margin-bottom: 10px;
+
+   }
+   .registerlink p a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 900px;
+   }
+   .registerlink p a:hover{
+    text-decoration: underline;
+   }
+   .bd{
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+
+   }
+   .ab{
+    border: 1px solid;
+    border-color: beige;
+    border-radius: 5px;
+   }
